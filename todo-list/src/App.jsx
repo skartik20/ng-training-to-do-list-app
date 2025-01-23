@@ -1,7 +1,6 @@
 import { useState } from 'react'
 
 import TaskHeader from './components/TaskHeader'
-import TaskToolbar from './components/TaskToolbar'
 import TaskTable from './components/TaskTable'
 import Pagination from './components/Pagination'
 // import ListToDoComponent from './components/ListToDoComponents'

@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 const Pagination = ({ currentPage, totalPages, onPageChange }) => (
     <div className="d-flex justify-content-between align-items-center mt-3">
       <div className="d-flex align-items-center">

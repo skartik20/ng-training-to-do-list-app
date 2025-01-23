@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 const TaskTable = ({ tasks, onEdit, onDelete }) => (
     <table className="table table-bordered table-hover">
       <thead className="table-light">
@@ -32,7 +33,7 @@ const TaskTable = ({ tasks, onEdit, onDelete }) => (
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Actions
+                  
                 </button>
                 <ul className="dropdown-menu">
                   <li>
