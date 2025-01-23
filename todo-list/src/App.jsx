@@ -23,6 +23,8 @@ const App = () => {
     { assignedTo: "User 4", status: "In Progress", dueDate: "12/06/2024", priority: "Normal", comments: "This task is good" },
   ]);
 
+  
+
   const handleEdit = (index) => {
     const newComment = prompt("Edit Comment:", tasks[index].comments);
     if (newComment !== null) {
@@ -38,10 +40,14 @@ const App = () => {
 
   return (
     <div className="container mt-4">
+      <div className="container">
       <TaskHeader />
-      <TaskToolbar />
+      
+      </div>
+      
       <TaskTable tasks={tasks} onEdit={handleEdit} onDelete={handleDelete} />
       <Pagination currentPage={1} totalPages={1} onPageChange={() => {}} />
+      
     </div>
   );
 };
